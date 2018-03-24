@@ -1,0 +1,10 @@
+{{Title.Question}}
+<button bindtap="bindViewTap1" type="button">{{Title.Answer1}}</button>
+<button bindtap="bindViewTap2" type="button">{{Title.Answer2}}</button>
+<button bindtap="bindViewTap3" type="button">{{Title.Answer3}}</button>
+<button bindtap="bindViewTap4" type="button">{{Title.Answer4}}</button>
+<view>{{ Ans }}</view>
+<view>正确答案：{{ Title.Right }}</view>
+<button bindtap="ModeChange" type="button">{{modemsg}}</button>
+<view>Mode：{{ mode }}</view>
+<view>双人模式等待人数：{{ WaitNumber }}</view>
